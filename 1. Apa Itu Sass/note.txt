@@ -1,0 +1,8 @@
+Sass adalah bentuk dari css sebelum di compile menjadi css.
+jadi dengan menggunakan sass kita bisa membuat framework css sendiri.
+sass juga dapat membuat variabel yang nantinya nilai dari variabel tersebut bisa dipakai secara berulang ulang.
+ada 2 bentuk sass berdasarkan penulisannya, yaitu :
+1. sass => bentuknya tidak ada simbol seperti css.
+2. scss => bentuknya hampir sama dengan css.
+
+Untuk melakukan compile dari sass ke css kita bisa menggunakan ekstension sass compiler yang ada di visual studio code.
