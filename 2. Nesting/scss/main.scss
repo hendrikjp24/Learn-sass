@@ -1,0 +1,67 @@
+// SImply Nesting
+
+// .main {
+//     background-color: lightblue;
+
+//     .main-header {
+//         font-size: 2em;
+//     }
+
+//     .main-paragraph{
+//         font-size: 1.4em;
+//     }
+// }
+
+
+
+// Next Example
+// .main, footer {
+//     h1, p {
+//         letter-spacing: 1px;
+//     }
+// }
+
+
+
+// &
+// Parent Selector => untuk menselect parent yang diatasnya
+
+// .main {
+
+//     .container & {
+//         background-color: lightblue;
+//     }
+
+//     .main-header {
+//         font-size: 2em;
+//     }
+
+//     &:hover {
+//         background-color: red;
+//     }
+// }
+
+//& juga dapat dimanfaatkan untuk sebagai pengganti nama parent,
+// jika ada class child yang mengandung nama parentnya.
+
+.main {
+
+    &  &-header {
+        font-size: 2em;
+    }
+
+    & &-paragraph {
+        font-size: 1.4em;
+    }
+
+}
+
+.footer {
+    & &-header {
+        font-size: 2em;
+    }
+
+    & &-paragraph {
+        font-size: 1.4em;
+    }
+}
