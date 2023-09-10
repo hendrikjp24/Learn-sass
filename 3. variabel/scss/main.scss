@@ -1,0 +1,61 @@
+// css variabel
+
+// :root {
+//     --primary-color : lightblue;
+//     --secondary-color : green;
+//     --text-color : gray;
+// }
+
+// // To use that variabel
+// body {
+//     background-color: var(--primary-color);
+// }
+
+// h1 {
+//     color: var(--text-color);
+// }
+
+
+// SASS VARIABEL
+// Di sass, - akan dibaca sama saja dengan _
+
+// Sama seperti bahasa pemrograman lain, variabel dalam sass dapat juga dibagi dengan:
+// Variabel global dan variabel local.
+
+// dibawah ini adalah variabel global
+$primary-color: lightblue;
+$text-color: gray;
+$local_variable: white;
+
+// Jika ada nama variable yang sama, maka akan diambil sesuai dengan letak dan fungsi variablenya.
+
+// jika ada 2 variable global dengan nama yang sama, maka nilai yang diambil adalah nilai variable yang terbaru.
+
+body {
+    // contoh local variable
+    $local_variable: yellow;
+
+    // contoh mengubah local variable menjadi global variable
+    $secondary-color: green !global;
+    
+    border: 2px solid $local_variable;
+    background-color: $primary-color;
+}
+
+h1 {
+    color: $secondary-color;
+    background-color: $local_variable;
+}
+
+// Map => fungsinya hampir sama seperti membuat object, ada pasangan key dan valuenya.
+// cth
+
+$alert : (
+    'danger': red,
+    'success': green,
+    'warning': orange
+);
+
+p {
+    color: map-get($alert, 'danger'); // Untuk mengambil nilai dari map variable diatas
+}
