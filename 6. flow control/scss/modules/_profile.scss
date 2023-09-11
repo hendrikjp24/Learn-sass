@@ -1,0 +1,10 @@
+@use 'mixin' as m;
+
+.square-profile {
+    @include m.profilePicture(300px, $circle: false);
+}
+
+.circle-profile {
+    @include m.profilePicture(80px, $circle: true);
+}
+

@@ -1,0 +1,5 @@
+Untuk mengatur alur flow pada sass, ada 4 key yang dapat digunakan :
+1. @if, @else, @else if
+2. @for
+3. @while
+4. @each

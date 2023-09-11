@@ -1,0 +1,33 @@
+@use 'mixin' as m;
+
+.gradient {
+    @include m.changeColorLi(salmon);
+}
+
+.gradientDark {
+    @include m.changeColorLi2();
+}
+
+
+// Using each => fungsinya hampir sama seperti di bahasa pemrograman biasa, yaitu untuk mapping isi dari object
+
+$social-colors : (
+    youtube: rgb(245, 57, 57),
+    twitter: rgb(59, 112, 209),
+    instagram: rgb(201, 100, 100),
+    facebook: rgb(27, 70, 214),
+    whatsapp: rgb(32, 240, 42)
+);
+
+.socials {
+    font-size: 2em;
+    font-weight: bold;
+
+    // Penggunaan each. penggunaan each di sass sedikit ada perbedaan. yaitu letak di key dan valuenya yang terbalik jika dibandingkan dengan bahasa pemrograman yang ada
+    @each $social, $color in $social-colors {
+        .#{$social} {
+            color: $color;
+        }
+    }
+}
+

@@ -1,0 +1,124 @@
+.square-profile {
+  width: 300px;
+  height: 300px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.gradient {
+  list-style-type: none;
+}
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #fa897c;
+}
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #fb9286;
+}
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #fb9b90;
+}
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #fba399;
+}
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #fcaca3;
+}
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #fcb5ad;
+}
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #fcbeb7;
+}
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #fdc7c1;
+}
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #fdd0cb;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #fdd9d5;
+}
+
+.gradientDark {
+  list-style-type: none;
+}
+.gradientDark li:nth-child(1) {
+  padding: 4px;
+  background-color: #007600;
+}
+.gradientDark li:nth-child(2) {
+  padding: 4px;
+  background-color: #006c00;
+}
+.gradientDark li:nth-child(3) {
+  padding: 4px;
+  background-color: #006100;
+}
+.gradientDark li:nth-child(4) {
+  padding: 4px;
+  background-color: #005700;
+}
+.gradientDark li:nth-child(5) {
+  padding: 4px;
+  background-color: #004d00;
+}
+.gradientDark li:nth-child(6) {
+  padding: 4px;
+  background-color: #004300;
+}
+.gradientDark li:nth-child(7) {
+  padding: 4px;
+  background-color: #003900;
+}
+.gradientDark li:nth-child(8) {
+  padding: 4px;
+  background-color: #002e00;
+}
+.gradientDark li:nth-child(9) {
+  padding: 4px;
+  background-color: #002400;
+}
+.gradientDark li:nth-child(10) {
+  padding: 4px;
+  background-color: #001a00;
+}
+
+.socials {
+  font-size: 2em;
+  font-weight: bold;
+}
+.socials .youtube {
+  color: rgb(245, 57, 57);
+}
+.socials .twitter {
+  color: rgb(59, 112, 209);
+}
+.socials .instagram {
+  color: rgb(201, 100, 100);
+}
+.socials .facebook {
+  color: rgb(27, 70, 214);
+}
+.socials .whatsapp {
+  color: rgb(32, 240, 42);
+}
+
+/*# sourceMappingURL=main.css.map */
