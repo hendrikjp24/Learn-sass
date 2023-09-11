@@ -1,0 +1,20 @@
+// Penggunaan import
+// dengan menggunakan import, maka semua variabel akan menjadi public
+// @import 'modules/mixin';
+// @import 'modules/header';
+// @import 'modules/container';
+// @import 'modules/footer';
+
+
+// Penggunaan use
+// dengan menggunakan use, maka variabel tidak menjadi public.
+// jadi harus dilakukan use pada file yang membutuhkan variabel tertentu.
+// dan untuk melakukan compile dari scss tidak bisa menggunakan ekstension di vsc
+// jadi harus menginstall sass pada device kita.
+// untuk compile "sass "file sass" "file tujuan"
+// cth : sass scss\main.scss css/main.css
+
+@use 'modules/header';
+@use 'modules/container';
+@use 'modules/footer';
+

@@ -1,0 +1,11 @@
+@use 'mixin' as m;
+
+.footer {
+    @include m.list-flex();
+
+    li {
+        background-color: slateblue;
+        padding: 0.4em;
+    }
+
+}

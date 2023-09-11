@@ -1,0 +1,10 @@
+@use 'mixin' as m;
+
+.header {
+    @include m.list-flex();
+
+    li {
+        background-color: seagreen;
+        padding: 0.7em;
+    }
+}
