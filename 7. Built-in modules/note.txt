@@ -1,0 +1,10 @@
+di sass juga ada fungsi yang dapat digunakan sama seperti di pada bahasa pemrograman yang lain, yaitu :
+1. Color
+2. List
+3. Map
+4. Math
+5. Meta
+6. Selector
+7. String
+
+dokumentasi : https://sass-lang.com/documentation/modules
